@@ -1,0 +1,36 @@
+/*cuando reproduce el audio no muestra el iframe, para no llenar la pantalla de iframe*/
+iframe
+{
+	display:none;
+}
+/*área de juego*/
+.contenido
+{
+    padding: 0px;
+    margin: auto;
+    width: 990px;
+    height: 680px;
+    background-image: url("../img/fondo.png");
+    background-size: 990px 680px;
+
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra
+{
+  width: 930px;
+  height: 55px;
+  position: absolute;
+    top: 1%;
+    left:25%;
+}
+
+.items
+{
+  width: 200px;
+  height: 200px;
+    left:25%;
+}
